@@ -1,4 +1,26 @@
 
+
+.kcfCalander {
+    margin-top: 20px;
+    position: relative;
+    height: 100%;
+    width: 720px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(189, 189, 189, 0.317);
+}
+
+.Calander {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+
 .icon {
     border-radius: 50%;
 }
