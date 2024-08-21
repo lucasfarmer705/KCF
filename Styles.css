@@ -1756,6 +1756,13 @@ button {margin: auto;}
 
 }
 
+@media (max-width: 550px) {
+
+    .sec3 img {
+        height: 300px;
+        width: 300px;
+    }
+}
 
 
 
