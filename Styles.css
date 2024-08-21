@@ -234,28 +234,18 @@ footer {
 .sec3 {
     background-color: #eaeaea;
     padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    row-gap: 50px;
+    row-gap: 60px;
 }
 
-.sec3 h3 {
-    text-align: center;
-    color: #000000;
-    margin: 0;
-    padding: 20px;
-    position: relative;
-    top: -50px;
-}
-
-#subsplash-embed-9h566p2 {
+.sec3 img {
+    height: 400px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 20px 10px rgb(212, 212, 212);
-}
-
-.sec3 div {
-    height: 300px;
-    width: 300px;
-    background-color: #cecece;
 }
 
 .sec4 {
