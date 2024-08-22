@@ -1782,9 +1782,6 @@ button {margin: auto;}
     .HideNav {
         display: none;
     }
-
-
-
 }
 
 @media (max-width: 550px) {
@@ -1793,6 +1790,8 @@ button {margin: auto;}
         height: 280px;
         width: 280px;
     }
+
+    
 }
 
 @keyframes fadeIn {
