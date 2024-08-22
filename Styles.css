@@ -1310,6 +1310,13 @@ button {margin: auto;}
     margin: 100px;
 }
 
+.Missions {
+    background-image: url(Img/Coming\ Soon.png);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+}
 
 @media (max-width: 1200px) {
 
