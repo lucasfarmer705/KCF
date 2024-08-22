@@ -1790,16 +1790,10 @@ button {margin: auto;}
 @media (max-width: 550px) {
 
     .sec3 img {
-        height: 300px;
-        width: 300px;
+        height: 280px;
+        width: 280px;
     }
 }
-
-
-
-
-
-
 
 @keyframes fadeIn {
     to {
