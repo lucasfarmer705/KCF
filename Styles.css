@@ -1939,6 +1939,11 @@ button {margin: auto;}
         height: 100%;
         width: 330px;
     }
+
+    .event2 {
+        padding: 0;
+        margin: 10px;
+    }
 }
 
 @media (max-width: 450px) {
