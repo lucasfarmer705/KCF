@@ -1,0 +1,33 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 200px;
+    text-align: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
