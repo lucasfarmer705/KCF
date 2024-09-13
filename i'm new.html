@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>I'm New | Kokomo Christian Fellowship</title>
+        <link rel="icon" type="image/png" href="Img/faviconkcf.png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+    <section class="ImNewHeader">
+
+        <li><a href="./"><img class="logo" src="Img/kcffooterlogo.png"></a></li>
+
+        <div class="sec1div1">
+                    
+                <h1>I'M NEW</h1>
+                
+        </div>
+            
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><i id="x" class="fa-solid fa-x" style="color: #ffffff;"></i></a></li>
+                <li><a href="./">Home</a></li>
+                <li><a href="./mission & vision">Mission & Vision</a></li>
+                <li><a href="./what we believe">What We Believe</a></li>
+                <li><a href="./our story">Our Story</a></li>
+                <li><a href="./leadership">Leadership</a></li>
+                <li><a href="./contact">Contact</a></li>
+                <li><a href="./nursery">Nursery</a></li>
+                <li><a href="./children">Children</a></li>
+                <li><a href="./volunteer">Volunteer</a></li>
+                <li><a href="./media">Media</a></li>
+                <li><a href="./give">Give</a></li>
+                <li><a href="./i'm new">I'm New</a></li>
+                <li><a href="./app">App</a></li>
+            </ul>
+
+            <ul>
+                <li class="HideOnMoble"><a href="./">Home</a></li>
+                <li>
+                    <a class="HideOnMoble" href="">About <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg></a>
+                    <ul class="dropdown">
+                        <li class="HideOnMoble"><a href="./mission & vision">Mission & Vision</a></li>
+                        <li class="HideOnMoble"><a href="./what we believe">What We Believe</a></li>
+                        <li class="HideOnMoble"><a href="./our story">Our Story</a></li>
+                        <li class="HideOnMoble"><a href="./leadership">Leadership</a></li>
+                        <li class="HideOnMoble"><a href="./contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="HideOnMoble" href="">Connect <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg></a>
+                    <ul class="dropdown">
+                        <li class="HideOnMoble"><a href="./nursery">Nursery</a></li>
+                        <li class="HideOnMoble"><a href="./children">Children</a></li>
+                        <li class="HideOnMoble"><a href="./volunteer">Volunteer</a></li>
+                        <li class="HideOnMoble"><a href="./app">App</a></li>
+                    </ul>
+                </li>
+                <li class="HideOnMoble"><a href="./media">Media</a></li>
+                <li class="HideOnMoble"><a href="./give">Give</a></li>
+                <li class="HideOnMoble"><a href="./i'm new">I'm New</a></li>
+                <li onclick=showSidebar()><a class="menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="21" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></a></li>
+                    
+            </ul>
+
+        </nav>
+
+    </section>
+
+    <section class="new1">
+        <div><p>Kokomo Christian Fellowship is a place where people can meet Jesus,  engage in life-giving community, and everyone is welcome. We believe in creating a space where people can have authentic encounters with Christ, discover their gifts and use them for God's glory. Join us for our Sunday services!</p></div>
+        
+    </section>
+
+    <section class="new2">
+        
+
+        <div><p>Sunday Mornings</p><p>10:00 AM</p></div>
+        <div><h6>WHEN WE MEET</h6></div>
+        <div><p>Thursday Evenings</p><p>6:00 PM</p></div>
+       
+    </section>
+
+    <section class="new3">
+        <h4>WHAT TO EXPECT</h4>
+        <div>
+            <p>A typical service will last about 90 minutes. We sing a good mix of contemporary and traditional music that is led by our worship team. There is childcare available for ages birth to 5 and a Children's Church that meets after the worship and offering for ages 5-11. Plan to hang around after the service for fellowship and meeting new people.</p>
+        </div>
+    </section>
+
+    <section class="times5">
+        <img src="Img/8BEF7751-28DD-4F83-BFDD-E2B1C660C691_1_201_a.jpeg" alt="">
+        <img src="Img/988524FA-EEFB-40F9-B393-3D2A82B323FE_1_201_a.jpeg" alt="">
+        <img src="Img/8728FE82-A518-443F-9D7C-8FF769A682BF_1_105_c.jpeg" alt="">
+        <img src="Img/40FD14EC-3126-4881-A6E0-60A6994A4154_1_201_a.jpeg" alt="">
+    </section>
+
+    <section class="sec5">
+        <div class="container">
+            <iframe class="connect_card" src="https://share.fluro.io/form/65314ac3c549de0037b5dee7" frameborder="0" scrolling="NO" title="Contact Us"></iframe>
+        </div>
+
+        <div class="container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.6899096867437!2d-86.16713702359759!3d40.48212467142929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x881486b369f4747b%3A0xd625ab13db54296d!2sKokomo%20Christian%20Fellowship!5e0!3m2!1sen!2sus!4v1721077081989!5m2!1sen!2sus" width="600" height="450" style="border:0; border-radius: 10px;" ballowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+    <section class="sec7">
+
+        <div class="info_div">
+            <ul class="bottom nav">
+                <li><a href="./"><img class="logobottom" src="Img/1.png" alt=""></a></li>
+                <li class="info_li"><a href="tel:+7654576061">Phone: 765-457-6061</a></li>
+                <li class="info_li"><a href="https://www.google.com/maps/place/Kokomo+Christian+Fellowship/@40.4821247,-86.1645621,17z/data=!3m1!4b1!4m6!3m5!1s0x881486b369f4747b:0xd625ab13db54296d!8m2!3d40.4821247!4d-86.1645621!16s%2Fg%2F1trprdgl?entry=ttu">600 S Dixon Rd, Kokomo, IN 46901</a></li>
+            </ul>
+        </div>
+
+        <div class="HideNav">
+
+            <ul class="bottom nav">
+                <h6>About</h6>
+                <li><a href="./mission & vision">Mission & Vision</a></li>
+                <li><a href="./what we believe">What We Believe</a></li>
+                <li><a href="./leadership">Leadership</a></li>
+                <li><a href="./our story">Our Story</a></li>
+                <li><a href="./contact">Contact</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="HideNav"> 
+            <ul class="bottom nav">
+                <h6>Connect</h6>
+                <li><a href="./nursery">Nursery</a></li>
+                <li><a href="./children">Children</a></li>
+                <li><a href="./volunteer">Volunteer</a></li>
+                <li><a href="./app">App</a></li>
+            </ul>
+        </div>
+
+        <div class="HideNav">
+            <ul class="bottom nav">
+                <h6>Other</h6>
+                <li><a href="./media">Media</a></li>
+                <li><a href="./give">Give</a></li>
+                <li><a href="./i'm new">I'm New</a></li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <footer>© 2024 Kokomo Christian Fellowship. | All Rights Reserved.</footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none' 
+        }
+    </script>
+
+    </body>
+
+</html>
