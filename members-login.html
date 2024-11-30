@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="Img/faviconkcf.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members-Login | Kokomo Christian Fellowship | Kokomo, IN</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="login-page">
+        <div class="login-container">
+          <img src="Img/kcffooterlogo.png" alt="">
+            <h6>Members Login</h6>
+            <form class="login-form" onsubmit="return checkPasscode(event)">
+              <input class="login-input"
+                type="password"
+                id="passcode"
+                placeholder="Enter 5-digit Passcode"
+                required
+              />
+              <button class="login-button" type="submit">Enter</button>
+            </form>
+            <p id="error-message"></p>
+          </div>
+    </section>
+  
+
+    <script>
+        function checkPasscode(event) {
+          event.preventDefault();
+          const passcode = document.getElementById("passcode").value;
+          if (passcode === "gokcf") {
+            window.location.href = "./index";
+          } else {
+            const errorMessage = document.getElementById("error-message");
+            errorMessage.textContent = "Incorrect passcode. Please try again.";
+            errorMessage.style.color = "red";
+          }
+          return false;
+      }
+   </script>
+</body>
+</html>
